@@ -1,12 +1,11 @@
 "use client"
 
-import { AnimatePresence, motion } from "framer-motion"
-import { ArrowLeft, GraduationCap, Trophy } from "lucide-react";
-import Link from "next/link";
+import { AnimatePresence, motion, Variants } from "framer-motion"
+import { GraduationCap, Trophy } from "lucide-react";
 import { Awards } from "@/data/awards";
 
 
-const pageVariants = {
+const pageVariants:Variants = {
   initial: {
     opacity: 0,
     y: 15,

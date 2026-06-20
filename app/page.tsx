@@ -12,9 +12,9 @@ import JournalDiv from "@/components/journal";
 import { Conferences } from "@/data/conferences";
 import ConferenceDiv from "@/components/conference";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, Variants } from "framer-motion";
 
-const pageVariants = {
+const pageVariants:Variants = {
   initial: {
     opacity: 0,
     y: 15,

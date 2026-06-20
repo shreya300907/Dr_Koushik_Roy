@@ -1,11 +1,11 @@
 "use client"
 import Education from "@/components/education";
 import { Extracurricular } from "@/data/extra";
-import { motion } from "framer-motion";
-import { Briefcase, CalendarDays, Circle, Mail, Phone, School } from "lucide-react";
+import { motion, Variants } from "framer-motion";
+import { CalendarDays, Circle, Mail, Phone, School } from "lucide-react";
 import Image from "next/image";
 
-const pageVariants = {
+const pageVariants:Variants = {
   initial: {
     opacity: 0,
     y: 15,

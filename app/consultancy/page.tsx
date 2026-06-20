@@ -1,13 +1,12 @@
 "use client"
 
-import { AnimatePresence, motion } from "framer-motion"
-import { ArrowLeft, ClipboardCheck, GraduationCap, Search } from "lucide-react";
-import Link from "next/link";
+import { AnimatePresence, motion, Variants } from "framer-motion"
+import { ClipboardCheck, GraduationCap, Search } from "lucide-react";
 import { Consultancies } from "@/data/consultancy";
 import { researchGrant } from "@/data/researchGrant";
 
 
-const pageVariants = {
+const pageVariants:Variants = {
   initial: {
     opacity: 0,
     y: 15,

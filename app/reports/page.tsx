@@ -1,11 +1,11 @@
 "use client"
 
-import { AnimatePresence, motion } from "framer-motion"
+import { AnimatePresence, motion, Variants } from "framer-motion"
 import { Reports } from "@/data/report";
 import ReportDiv from "@/components/report";
 
 
-const pageVariants = {
+const pageVariants:Variants = {
   initial: {
     opacity: 0,
     y: 15,

@@ -5,12 +5,11 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Conferences } from "@/data/conferences";
 import { Journals } from "@/data/journals";
-import { ArrowLeft, GraduationCap, Search } from "lucide-react";
-import Link from "next/link";
+import { GraduationCap, Search } from "lucide-react";
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, Variants } from "framer-motion";
 
-const pageVariants = {
+const pageVariants: Variants = {
   initial: {
     opacity: 0,
     y: 15,

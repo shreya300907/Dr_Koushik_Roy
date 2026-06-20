@@ -2,10 +2,10 @@
 
 import StudentCard from "@/components/studentCard";
 import { Alumini, Scholars } from "@/data/students";
-import { AnimatePresence, motion } from "framer-motion"
+import { AnimatePresence, motion, Variants } from "framer-motion"
 
 
-const pageVariants = {
+const pageVariants: Variants = {
   initial: {
     opacity: 0,
     y: 15,
