@@ -1,7 +1,7 @@
 "use client"
 
 import { AnimatePresence, motion, Variants } from "framer-motion"
-import { ClipboardCheck, GraduationCap, Search } from "lucide-react";
+import { ClipboardCheck, Search } from "lucide-react";
 import { Consultancies } from "@/data/consultancy";
 import { researchGrant } from "@/data/researchGrant";
 
@@ -43,7 +43,6 @@ export default function Consultancy(){
         <span className="text-fg text-[30px] sm:text-[50px] font-semibold font-newsreader leading-8 sm:leading-12">Dr. Koushik Roy</span>
         <span className="text-hghlght-text text-[20px] sm:text-[24px] font-medium font-newsreader italic mb-2">Consultancy</span>
         <div className="flex flex-row gap-2 items-center">
-          <GraduationCap className="sm:w-10 sm:h-10 w-5 h-5 shrink-0" />
           <span className="text-primary-fg text-[13px] sm:text-[16px] font-hanken">Assistant Professor<br/> Civil & Environmental Engineering</span>
         </div>
       </div>
