@@ -373,7 +373,7 @@ export default function Home() {
             </div>
           ))}
           <Link href="/awards&honours">
-          <div className="flex flex-row font-hanken gap-1 sm:gap-2 text-[12px] sm:text-[16px] text-fg text-center w-full mt-4 justify-center cursor-pointer hover:underline" >
+          <div className="flex flex-row font-hanken gap-1 sm:gap-2 text-[12px] sm:text-[16px] text-fg text-center w-full mt-2 sm:mt-4 justify-center cursor-pointer hover:underline" >
             <div>
               View All Awards & Honours
             </div>
